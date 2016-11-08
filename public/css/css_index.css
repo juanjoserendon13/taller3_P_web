@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    font-family: Montserrat,sans-serif;
+    
+}
+body{
+    background-image: url("/resources/ps_neutral.png");
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: white;
+    margin: 0 auto 10px auto;
+    width:940px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.5);
+   
+    
+}
+#navegadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#navs{
+transition: 0.7s ease;
+     fill:#1e88e5;
+    width: 50%;
+    height: 50%;
+}
+#indBtn,#matBtn{
+    width: 10%;
+    height: 10%;
+    text-align: center;
+}
+
+
+#indBtn:hover #navs,#matBtn:hover #navs{
+ fill:#ff7043;
+}
+#titulo{
+    color: #ff7043;
+    margin: 60px auto 40px auto;
+    height: inherit;
+    width: 300px;
+    font-size: 48px;
+    font-weight: 700;
+  
+   
+}
+
+#per{
+    width: 460px;
+    padding: 5px;
+    margin: 0 auto 20px auto;
+    border-radius: 30px;
+    border: 2px solid #bdbdbd;    
+    transition: 1s ease;
+    height: 48px;
+    font-size: 18px;
+ 
+   
+}
+#per:focus{
+outline:none;
+border: 2px solid #ff7043; 
+}
+#enviar{
+    width: 140px;
+    height: 42px;
+    background-color: #1e88e5;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto 35px auto;
+    color: white;
+    font-size: 22px;
+    box-shadow: none;
+     
+}
+#enviar:hover{
+    background-color: #01579b;
+    cursor: pointer;
+}
+#enviar:focus{
+    outline:none;
+   }
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+     width:940px;
+    margin: 0 auto;
+  
+}
+#error{
+    display: none;
+    font-size:30px;
+    color: black;
+    text-align: center;
+}
+.fx{
+    display: none;
+}
+.titulos{
+   color: gray;
+    margin: 0 auto 30px auto;
+    font-size: 22px;
+      width: 620px;
+    height: 70px;
+
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    
+    
+}
+#peri{
+    margin-right: 20px;
+}
+
+.curso{
+    display: none;
+    margin: 0 auto 50px auto;
+    background-color: #1e88e5;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
+    font-size: 22px;
+    line-height: 0.9;
+    width: 620px;
+    height: 70px;
+/*     visibility: hidden;*/
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    
+    
+}
+
+#nombre,#periodo{
+   width: 140px;
+   margin-left:20px; 
+    text-align: center;
+     
+}
+
+#icono{
+     margin-left: 50px;
+    width: 30%; 
+     height: 100%;
+    transition: 0.7s ease;
+}
+
+#verBtn{
+   width: 140px; 
+   height: 100%;
+   display: flex;
+  border-radius: 8px;
+   
+    color: white;
+   text-decoration: none;
+    transition: 0.7s ease;
+    
+}
+#verBtn:hover #icono{
+       fill:#ff7043;
+}
+
+

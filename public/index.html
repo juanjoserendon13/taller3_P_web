@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de notas</title>
+
+<!--  WEBCOMPONENT  -->
+    <script src="https://polygit2.appspot.com/components/webcomponentsjs/webcomponents-lite.js"></script>
+
+<!--  POLYMER  -->
+    <link rel="import" href="https://polygit2.appspot.com/components/polymer/polymer.html">
+<!-- CARGAR ELEMENTOS EXTERNOS Y CREADOS   -->
+    <link rel="import" href="https://polygit2.appspot.com/components/iron-icons/iron-icons.html">
+    <link rel="import" href="https://polygit2.appspot.com/components/iron-icons/social-icons.html">
+
+<!--FUENTES-->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+   <!--JS PARA TOOLTIP-->
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<!--  CSS  -->
+
+   <link rel="stylesheet" href="../css/css_index.css">
+
+
+</head>
+<body>
+
+  <header>
+      <div id="navegadores">
+            <a href="/index.html" id="indBtn" title="Consultas"><iron-icon icon="icons:home" id="navs"></iron-icon></a>
+           <a href="/matricula.html" id="matBtn" title="Matricula"><iron-icon icon="social:school" id="navs"></iron-icon></a>
+      </div>
+       <h1 id="titulo">CONSULTAS</h1>
+
+       <input type="text" name="periodo" placeHolder="Periodo,Ej:162" id="per">
+
+       <input type="button" value="Buscar" id="enviar">
+
+  </header>
+
+          <div class="titulos" >
+           <span id="cur">Curso</span>
+           <span id="peri">Periodo</span>
+            <span id="info">Ver</span>
+           </div>
+
+                <section class="resultado">
+
+<!--
+      <div class="fx">
+      <div class="curso">
+           <span id="nombre">Algebra</span>
+           <span id="periodo">162</span>
+
+           <a href="/prueba.html" id="verBtn"><iron-icon icon="icons:arrow-forward" id="icono"></iron-icon></a>
+       </div>
+       </div>
+-->
+       </section>
+
+
+
+ <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+
+<!--JS PROPIOS-->
+    <script type="text/javascript" src="../js/js_index.js"></script>
+
+</body>
+</html>
